@@ -7,7 +7,6 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    font-family: 'Raleway', sans-serif;
     background-color: var(--primary-white-color);
 }
 .list {
@@ -16,11 +15,24 @@ body {
 .link {
     text-decoration: none;
 }
+.visualy-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 /* .header {
 }
 .navigation {
 } */
 .logo {
+    font-family: 'Raleway', sans-serif;
     color: var(--overlays-shadow-headi);
     font-weight: 800;
     font-size: 18px;
@@ -34,7 +46,7 @@ body {
 .navigation-item 
 .link {
     color:  var(--overlays-shadow-headi);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -59,20 +71,20 @@ body {
 }
 .hero-title {
     color: var(--primary-white-color);
-    font-weight: 600;
     font-size: 56px;
     line-height: 1.07;
 }
 .hero-btn {
+    font-family: 'Roboto', sans-serif;
     color: var(--primary-white-color);
     background-color: var(--primary-brand-color);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.18;
 }
 .qualities-title {
     color: var(--overlays-shadow-headi);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
 }
@@ -80,6 +92,11 @@ body {
     color: var(--accent-text-color);
     font-size: 16px;
     line-height: 1.5;
+}
+.work-title {
+    color: var(--overlays-shadow-headi);
+    font-size: 36px;
+    line-height: 1.11;
 }
 .work-title-items {
     color: var(--overlays-shadow-headi);
@@ -92,20 +109,20 @@ body {
 }
 .team-title {
     color: var(--overlays-shadow-headi);
-    font-weight: 600;
+
     font-size: 36px;
     line-height: 40px;
 }
 .team-titles {
     color: var(--overlays-shadow-headi);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
 }
 .team-description {
     color: var(--accent-text-color);
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
 }
 .footers {
     background-color: var(--overlays-shadow-headi);
@@ -122,9 +139,10 @@ body {
     color: #F4F4FD;
 }
 .meniu-filters-btn {
+    font-family: 'Roboto', sans-serif;
     color: var(--primary-brand-color);
     background: #F4F4FD;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -135,7 +153,7 @@ body {
 }
 .project-header {
     color: var(--overlays-shadow-headi);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
 }
