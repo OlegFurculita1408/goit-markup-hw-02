@@ -37,6 +37,7 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
+    text-transform: uppercase;
 }
 .logo-web {
     color: var(--primary-brand-color);
@@ -49,6 +50,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .navigation-item .link:hover,
 .navigation-item .link:focus {
@@ -65,6 +67,11 @@ body {
     color: var(--accent-text-color);
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.address-item .link:hover,
+.address-item .link:focus {
+    color: var(--primary-brand-color);
 }
 .hero {
     background:  var(--overlays-shadow-headi)
@@ -73,30 +80,43 @@ body {
     color: var(--primary-white-color);
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 .hero-btn {
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     color: var(--primary-white-color);
     background-color: var(--primary-brand-color);
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.hero-btn:hover,
+.hero-btn:active {
+    background-color: #404BBF;
 }
 .qualities-title {
     color: var(--overlays-shadow-headi);
+    font-family: inherit;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .qualities-description {
     color: var(--accent-text-color);
+    font-family: inherit;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .work-title {
     color: var(--overlays-shadow-headi);
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .work-title-items {
     color: var(--overlays-shadow-headi);
@@ -109,42 +129,45 @@ body {
 }
 .team-title {
     color: var(--overlays-shadow-headi);
-
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .team-titles {
     color: var(--overlays-shadow-headi);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .team-description {
     color: var(--accent-text-color);
     font-size: 16px;
     line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 .footers {
     background-color: var(--overlays-shadow-headi);
-    font-size: 16px;
-    line-height: 1.5;
-    color: #E7E9FC;
 }
 .footers-coperite {
     font-size: 16px;
     line-height: 1.5;
     color: #E7E9FC;
+    letter-spacing: 0.02em;
 }
 .logo-footer {
     color: #F4F4FD;
 }
 .meniu-filters-btn {
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     color: var(--primary-brand-color);
     background: #F4F4FD;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 .meniu-filters-btn:hover,
 .meniu-filters-btn:focus {
@@ -156,9 +179,11 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .project-paragaph {
     color: var(--accent-text-color);
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
