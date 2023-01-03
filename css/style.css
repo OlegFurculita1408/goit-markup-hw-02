@@ -90,6 +90,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:active {
@@ -166,6 +167,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .meniu-filters-btn:hover,
 .meniu-filters-btn:focus {
